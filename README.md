@@ -2,7 +2,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
-![Swarm](https://img.shields.io/badge/Guidance-Decentralized%20PSO-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
