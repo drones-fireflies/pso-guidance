@@ -78,18 +78,10 @@ python3 -m guidance_pso.viz.plot_case_study          # regenerate the figure abo
 @inproceedings{chakraa2026pso,
   title={Decentralized PSO-Based Guidance for Multi-UAV Wildfire Monitoring and Frontier Tracking},
   author={Chakraa, Hamza and Feurgard, Ma{\"e}l and Bronz, Murat},
-  booktitle={TODO},
+  booktitle={17th International Micro Air Vehicle Conference and Competition (IMAV 2026)},
   year={2026},
 }
 ```
-
----
-
-## 🙏 Acknowledgments
-
-Supported by the **French National Research Agency (ANR)** under reference **ANR-23-IAS2-0002-01** — FireFlies TSIA project.
-
----
 
 ## 📄 License
 
