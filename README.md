@@ -33,7 +33,7 @@ Each drone runs its own **Particle Swarm Optimization** in velocity space at eve
 ## 📊 Performance
 
 <p align="center">
-  <img src="assets/metrics.eps" width="750"/>
+  <img src="assets/metrics.png" width="750"/>
 </p>
 
 ✔ Evaluated with **frontier IoU**, **fire IoU**, **sensor overlap rate** and **per-drone decision latency** over 600 steps on a 200 × 200 grid.
