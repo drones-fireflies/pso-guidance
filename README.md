@@ -1,4 +1,4 @@
-# 🔥 PSO-Guidance
+# PSO-Guidance
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
@@ -6,20 +6,20 @@
 
 ---
 
-## 🚀 Overview
+## Overview
 
 **PSO-Guidance** is a **training-free** guidance framework for **multi-UAV wildfire frontier tracking**.
 
 Each drone runs its own **Particle Swarm Optimization** in velocity space at every control step.
 
 
-- 🗺 **Partial observability**: the belief map starts empty and is built by flying
-- 🤝 **Decentralized**: drones share only positions and the belief map
-- 🚁 **Flight-validated** with 3 DJI Mini 3 quadrotors
+- **Partial observability**: the belief map starts empty and is built by flying
+- **Decentralized**: drones share only positions and the belief map
+- **Flight-validated** with 3 DJI Mini 3 quadrotors
 
 ---
 
-## 🔥 Simulation: belief vs. ground truth
+## Simulation: belief vs. ground truth
 
 <p align="center">
   <img src="assets/case_study.png" width="750"/>
@@ -29,7 +29,7 @@ Each drone runs its own **Particle Swarm Optimization** in velocity space at eve
 
 ---
 
-## 📊 Performance
+## Performance
 
 <p align="center">
   <img src="assets/metrics.png" width="750"/>
@@ -38,7 +38,7 @@ Each drone runs its own **Particle Swarm Optimization** in velocity space at eve
 ✔ Evaluated with **frontier IoU**, **fire IoU**, **sensor overlap rate** and **per-drone decision latency** over 600 steps on a 200 × 200 grid.
 
 
-## 🗂 Structure
+## Structure
 
 ```
 guidance_pso/
@@ -53,7 +53,7 @@ guidance_pso/
 
 ---
 
-## 💻 Installation
+## Installation
 
 ```bash
 git clone https://github.com/drones-fireflies/pso-guidance.git
@@ -71,7 +71,7 @@ python3 -m guidance_pso.viz.plot_case_study          # regenerate the figure abo
 
 ---
 
-## 📚 Citation
+## Citation
 
 ```bash
 @inproceedings{chakraa2026pso,
@@ -81,7 +81,3 @@ python3 -m guidance_pso.viz.plot_case_study          # regenerate the figure abo
   year={2026},
 }
 ```
-
-## 📄 License
-
-MIT — see [`LICENCE`](LICENCE).
