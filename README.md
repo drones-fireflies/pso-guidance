@@ -43,12 +43,12 @@ Each drone runs its own **Particle Swarm Optimization** in velocity space at eve
 ```
 guidance_pso/
 ├── main.py          # closed-loop simulation
-├── world.py         # physical parameters & coordinate transforms
+├── world.py         # parameters
 ├── metrics.py       # IoU, overlap, latency
-├── guidance/        # 🧠 guidance strategy, PSO, velocity adapter
-├── perception/      # 👁 belief map, OpenCV frontier extraction
-├── firemodel/       # 🔥 cellular-automata propagation
-└── viz/             # 📈 animation & figures
+├── guidance/        # guidance strategy
+├── perception/      # belief map, OpenCV frontier extraction
+├── firemodel/       # cellular-automata propagation
+└── viz/             # animation & figures
 ```
 
 ---
