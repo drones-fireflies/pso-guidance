@@ -2,7 +2,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
@@ -58,7 +57,6 @@ guidance_pso/
 ```bash
 git clone https://github.com/drones-fireflies/pso-guidance.git
 cd pso-guidance
-pip install -r requirements.txt
 python3 -m guidance_pso.main
 ```
 
